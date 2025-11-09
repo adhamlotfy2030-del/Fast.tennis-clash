@@ -3,33 +3,16 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Fast Tennis Clash - Demo</title>
+<title>Fast Tennis Clash - GitHub Pages</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="game-wrap">
-  <header>
-    <h1>Fast Tennis Clash (Demo)</h1>
-    <div id="hud">
-      <div>سجلك: <span id="score-player">0</span></div>
-      <div>المنافس: <span id="score-ai">0</span></div>
-      <div id="status">جاهز</div>
-    </div>
-  </header>
-
-  <canvas id="game" width="800" height="480"></canvas>
-
-  <div id="controls">
-    <button id="btn-start">ابدأ مباراة جديدة</button>
-    <button id="btn-watch" title="مشاهدة إعلان محاكى للحصول على عملات">شاهد إعلان (محاكى)</button>
-    <div id="coins">عملات: <span id="coins-count">0</span></div>
-  </div>
-
-  <footer>
-    <small>اللعبة تعمل بدون إنترنت. هذه النسخة تجريبية تحتوي على إعلانات محاكية — لربط إعلانات حقيقية اتبع دليل النشر في README.</small>
-  </footer>
-</div>
-
+<h1 style="text-align:center;">Fast Tennis Clash (Demo)</h1>
+<p style="text-align:center;">اللعبة تعمل مباشرة من المتصفح. استخدم السحب للتحكم.</p>
+<canvas id="game" width="800" height="480" style="display:block;margin:0 auto;background:#7ec0ff;"></canvas>
+<button id="btn-start" style="display:block;margin:10px auto;">ابدأ مباراة جديدة</button>
+<button id="btn-watch" style="display:block;margin:10px auto;">شاهد إعلان (محاكى)</button>
+<div style="text-align:center;">عملات: <span id="coins-count">0</span></div>
 <script src="game.js"></script>
 </body>
 </html>
